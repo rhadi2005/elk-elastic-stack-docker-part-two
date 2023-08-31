@@ -1,5 +1,12 @@
+.env
 app/.venv
 app/__pycache__
 troubleshooting.txt
 TODO.md
 elastic-stack-docker-part-two.wg
+
+filebeat_ingest_data
+filebeat_ingest_data/*
+
+logstash_ingest_data
+logstash_ingest_data/*

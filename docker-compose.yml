@@ -280,6 +280,9 @@ services:
       - KIBANA_HOST=https://kibana:5601
 
   webapp:
+    depends_on:
+      es01:
+        condition: service_healthy
     build:
       context: app
     volumes:
